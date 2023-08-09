@@ -1,0 +1,63 @@
+body{
+     background-color: black;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+     width: 400px;
+     margin: 0px auto;
+     padding: 20px;
+     background-color: white;
+     border-radius: 5px;
+     margin-top: 100px;
+
+}
+
+h1{
+     color: black;
+     text-align: center;
+
+}
+
+input{
+     color: black;
+}
+
+label{
+     color: black;
+}
+
+.form-group{
+     margin-bottom: 20px;
+}
+
+.form-group label{
+     margin-bottom: 5px;
+     display: block;
+}
+
+.form-group input{
+     width: 100%;
+     padding: 8px;
+     border: 1px solid black;
+     border-radius: 3px;
+}
+
+.form-group select{
+     width: 100%;
+     padding: 8px;
+     border: 1px solid black;
+     border-radius: 3px;
+}
+
+.form-group .sing{
+     background-color: black;
+     color: white;
+     cursor: pointer;
+}
+
+.form-group .sing:hover{
+    background-color: white;
+    color: black;
+}
